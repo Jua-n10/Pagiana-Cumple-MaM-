@@ -4,17 +4,7 @@ import react from "@vitejs/plugin-react";
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
-  base: "/happy-birthday/",
-  assetsInclude: ["**/*.JPG", "**/*.HEIC", "**/*.jpg"],
-  build: {
-    rollupOptions: {
-      output: {
-        manualChunks: undefined,
-      },
-    },
-  },
-  server: {
-    historyApiFallback: true,
-  },
+    plugins: [react(), tailwindcss()],
+    base: "/", // ✅ CLAVE
+    assetsInclude: ["**/*.JPG", "**/*.HEIC", "**/*.jpg"],
 });
