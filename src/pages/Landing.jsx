@@ -46,7 +46,7 @@ export const Landing = () => {
                             key={i}
                             src={img}
                             alt={`img-${i}`}
-                            className="w-64 h-96 object-cover flex-shrink-0 border-r-4 border-white z-20"
+                            className="w-64 h-npm run build96 object-cover flex-shrink-0 border-r-4 border-white z-20"
                         />
                     ))}
                 </motion.div>
